@@ -302,3 +302,12 @@ zip -r archivo.zip <directorio>
 unzip archivo.zip
 ```
 
+---
+
+## Conexiones
+
+Conectarme al servicio **MySQL**.
+
+```
+mysql -u <user> -p
+```

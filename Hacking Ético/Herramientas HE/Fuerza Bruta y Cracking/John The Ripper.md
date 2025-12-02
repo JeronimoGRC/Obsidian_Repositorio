@@ -33,7 +33,6 @@ john --list=formats | grep <formato>
 ```
 
 ---
-
 ### Ejemplo
 
 ```
