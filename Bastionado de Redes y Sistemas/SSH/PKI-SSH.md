@@ -37,7 +37,9 @@ Durante la creación se genera:
 La forma más común:
 
 ```
-ssh-copy-id <usuario>@<ip>
+ssh-copy-id -i <ruta clave pública usuario> <usuario>@<ip>
 ```
 
 La ip y el usuario serán los de la máquina a la que nos queremos conectar.
+
+- `-i` -> Para indicar la clave pública 

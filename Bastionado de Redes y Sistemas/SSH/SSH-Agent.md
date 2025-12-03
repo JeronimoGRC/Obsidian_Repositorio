@@ -4,8 +4,10 @@ Gracias a esta herramienta no pedirá la frase de paso y ayudará al hecho de qu
 ### Iniciar SSH Agent
 
 ```
-eval $(ssh-agent)
+ssh-agent /bin/bash
+ps aux | grep ssh #Para ver el agente en ejecución
 ```
+
 
 ### Añadir una clave al agente
 
@@ -17,4 +19,5 @@ ssh-add ~/.ssh/<clave privada a utilizar>
 
 ```
 ssh-add -l
+ssh-add -L
 ```

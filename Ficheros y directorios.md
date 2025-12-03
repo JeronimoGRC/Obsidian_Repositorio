@@ -47,11 +47,6 @@ Contiene:
 - `/usr/share` → archivos compartidos (iconos, manuales, datos)
 
 ---
-### 🔐 **/root**
-
-Home del usuario root.
-
----
 ### 🧪 **/tmp**
 
 Archivos temporales borrados al reiniciar.
@@ -62,15 +57,6 @@ Archivos temporales borrados al reiniciar.
 Programas instalados manualmente o externos.
 
 ---
-### 🖥️ **/dev**
-
-Dispositivos del sistema:
-
-- `/dev/sda` (disco)
-    
-- `/dev/tty`
-    
-- `/dev/`
 
 ## Kali Linux
 
@@ -164,4 +150,8 @@ Además de los ficheros típicos de Linux, Kali incluye:
 
 ## 🔪 **[[John The Ripper]]**
 
-- 
+
+### Knock
+
+- `/etc/knockd.conf` -> Fichero de configuración del servicio knock.
+- `/var/log/knockd.log` -> Fichero de logs del servicio Knock

@@ -11,6 +11,8 @@ El servicio **SFTP** es el simplemente el servicio [[FTP]] funcionando a través
 sftp <usuario>@<IP>
 ```
 
+Para los puertos la flag 
+
 ---
 
 ### Comandos dentro de la sesión SFTP

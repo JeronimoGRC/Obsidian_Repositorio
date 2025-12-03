@@ -306,8 +306,26 @@ unzip archivo.zip
 
 ## Conexiones
 
-Conectarme al servicio **MySQL**.
+- Conectarme al servicio **MySQL**.
 
 ```
 mysql -u <user> -p
 ```
+
+
+---
+
+## Control de accesos
+
+- Lista de los usuarios conectados por última vez.
+
+```
+lastlog
+```
+
+- Última vez que se han conectado los usuarios del sistema.
+
+```
+last
+```
+
