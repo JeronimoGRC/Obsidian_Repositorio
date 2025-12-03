@@ -6,7 +6,7 @@ Gracias al Open SSH que es un conjunto de herramientas que permiten conectarse d
 
 1. [[PKI-SSH]]
 2. [[PSSH]]
-3. [[SSH-Forwarding]]
+3. [[SFTP]]
 4. [[SSH-Agent]]
 
 ### Comandos básicos
