@@ -18,7 +18,10 @@ Obtención de la máxima cantidad de información del objetivo y de sus activos
 ### Ataques de red:
 
  Enfatizaré en [[Man In The Middle]] que captura y reenvía la comunicación de forma transparente usando el ***ARP Spoofing*** y leer los datos con ***Wireshark***.
- 
+
+- Wireshark
+
+
 ### [[Fuerza Bruta y Cracking de Contraseñas]]:
 
 Los ataques de Fuerza bruta consisten en probar múltiples contraseñas, diccionarios para encontrar cual es la correcta.
@@ -30,6 +33,9 @@ Los ataques de Fuerza bruta consisten en probar múltiples contraseñas, diccion
 - Crunch
 
 
+### [[Hacking Web]]:
 
+- Nikto
+- 
 
 

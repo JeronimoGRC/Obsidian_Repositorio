@@ -7,4 +7,3 @@ Apuntes:
 - [[Bastionado de Redes y Sistemas]]
 - [[Comandos Linux]]
 - [[Ficheros y directorios]]
-- [[Análisis Forénse]]
