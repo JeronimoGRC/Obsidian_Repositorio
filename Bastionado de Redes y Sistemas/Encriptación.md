@@ -67,3 +67,17 @@ gpg --import <archivo>.asc
 gpg -a --decrypt <archivo_encriptado> > <archivo_desencriptado>`
 ```
 
+- Para firmar un archivo 
+
+```
+gpg --encrypt --sign --armor -r nombre_del_compañero <fichero>
+```
+
+Explicación:
+
+- `--encrypt` → cifra el archivo.
+- `--sign` → lo firma con tu clave privada.
+- `--armor` → genera un archivo en ASCII (`.asc`), legible como texto.
+- `-r nombre_del_compañero` → destinatario de la encriptación.
+
+
