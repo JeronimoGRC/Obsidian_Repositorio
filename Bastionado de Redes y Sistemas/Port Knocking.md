@@ -38,11 +38,25 @@ systemctl restart knockd #Reiniciar servicio
 
 Ejemplo visual:
 
-Cambiar las command por el que nos ha puesto.
+Apertura:
 
-![[Pasted image 20251209131704.png]]
+```
+/sbin/iptables -D INPUT -p tcp --dport número_puerto -j DROP
+```
+
+Cierre:
+
+```
+/sbin/iptables -A INPUT -p tcp --dport número_puerto -j DROP
+```
 
 La secuencia de puertos serán los puertos que utilizaremos para abrir o cerrar el puerto y poder acceder.
+
+Ejemplo:
+
+```
+sequence = 9000,8000,7000
+```
 
 ---
 
