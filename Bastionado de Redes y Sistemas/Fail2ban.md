@@ -69,8 +69,8 @@ bantime = 600
 También es necesario configurar para los logs el siguiente fichero `/etc/vsftpd.conf` con el siguiente contenido:
 
 ```
-xferlog_enabled = YES
-log_ftp_protocol = YES
+xferlog_enabled=YES
+log_ftp_protocol=YES
 ```
 
 #### Comandos clave
