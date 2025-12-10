@@ -102,6 +102,7 @@ ignoreregex =
 enabled = true
 backend = systemd
 filter = mysql-auth
+logpath = /var/log/mysql/mysql-auth.log
 port = mysql
 maxretry = 3
 findtime = 600

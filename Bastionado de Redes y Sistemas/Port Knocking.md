@@ -38,6 +38,8 @@ systemctl restart knockd #Reiniciar servicio
 
 Ejemplo visual:
 
+Cambiar las command por el que nos ha puesto.
+
 ![[Pasted image 20251209131704.png]]
 
 La secuencia de puertos serán los puertos que utilizaremos para abrir o cerrar el puerto y poder acceder.
