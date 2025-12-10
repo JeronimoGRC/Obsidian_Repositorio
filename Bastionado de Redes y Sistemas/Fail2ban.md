@@ -8,7 +8,12 @@ Es una herramienta de seguridad preventiva que protege servicios frente a ataque
 ## Archivos importantes
 
 - `/etc/fail2ban/fail2ban.conf` -> Configuración por defecto ***(no tocar)***
-- `/etc/fail2ban/jail.local` -> Configuración personalizada
+- `/etc/fail2ban/jail.conf->` Configuración personalizada, el original es con extensión `.conf` recomendable trabajar en esa copia con extensión `.local`.
+
+```
+cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local 
+```
+
 - `/etc/fail2ban/filter.d/*.conf` -> Filtros por servicio
 
 ---
