@@ -114,6 +114,11 @@ fail2ban-client set mysql-auth unbanip <IP>
 
 ## Comandos esenciales
 
+### Instalación
+
+```
+apt install fail2ban
+```
 ### Estado general
 
 ```
