@@ -60,6 +60,14 @@ bantime = 600
 
 - `port = ftp` -> El puerto por el que corra el servicio. 
 - `logpath = /var/log/vsftpd.log` -> El servicio FTP debe generar logs y los hará en esa ruta
+
+También es necesario configurar para los logs el siguiente fichero `/etc/vsftpd.conf` con el siguiente contenido:
+
+```
+xferlog_enabled = YES
+log_ftp_protocol = YES
+```
+
 #### Comandos clave
 
 ```
