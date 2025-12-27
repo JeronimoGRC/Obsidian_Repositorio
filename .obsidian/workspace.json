@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "cd4dfbca95994df9",
+        "id": "8b7db37bcb925ac4",
         "type": "tabs",
         "children": [
           {
-            "id": "7e8b971eceb23299",
+            "id": "adb44a13c16b2bfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Google Dorks.md",
+                "file": "OpenWebinars/Taller Criptografía/Taller Criptografía.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Google Dorks"
+              "title": "Taller Criptografía"
+            }
+          },
+          {
+            "id": "7d57b1a1cb7f89e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bastionado de Redes y Sistemas/Administración local/Pamcracklib.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pamcracklib"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Google Dorks.md",
+                "file": "SQL Básico/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Google Dorks"
+              "title": "Enlaces entrantes de SQL"
             }
           },
           {
@@ -114,12 +129,27 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Google Dorks.md",
+                "file": "SQL Básico/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Google Dorks"
+              "title": "Enlaces salientes de SQL"
+            }
+          },
+          {
+            "id": "3c3103b85259956e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SQL Básico/SQL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de SQL"
             }
           },
           {
@@ -150,27 +180,13 @@
               "icon": "lucide-archive",
               "title": "Todas las propiedades"
             }
-          },
-          {
-            "id": "3c3103b85259956e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Google Dorks.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Esquema de Google Dorks"
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -184,10 +200,22 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "7e8b971eceb23299",
+  "active": "7d57b1a1cb7f89e4",
   "lastOpenFiles": [
-    "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Shodan.md",
+    "Bastionado de Redes y Sistemas/Encriptación GPG.md",
+    "Bastionado de Redes y Sistemas/Administración local/AWK.md",
+    "OpenWebinars/Taller Criptografía/Taller Criptografía.md",
+    "OpenWebinars/Taller Criptografía/Taller_de_Criptografía_Simétrica_y_Asimétrica.pdf",
+    "OpenWebinars/Taller Criptografía/Sin confirmar 440516.crdownload",
+    "OpenWebinars/SQL Básico/SQL.md",
+    "OpenWebinars/Taller Criptografía",
+    "OpenWebinars",
+    "OpenWebinars/SQL Básico/Base de datos.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/Netcat.md",
+    "OpenWebinars/SQL Básico",
+    "Hacking Ético/Herramientas HE/Hacking Web/Nikto.md",
     "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Google Dorks.md",
+    "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Shodan.md",
     "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Reconocimiento y escaneo.md",
     "img/Pasted image 20251220175225.png",
     "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/NMAP.md"
