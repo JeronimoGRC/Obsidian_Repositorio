@@ -19,7 +19,7 @@ Explicación:
 Todo el tráfico que envíes a `localhost:5000` en tu máquina **viaja por el túnel SSH** y llega al **puerto 80 de la máquina remota**
 
 ---
-### Remote  Port Forwarding
+### Remote Port Forwarding
 
 Abre un puerto en la **máquina remota**, y cualquier conexión a ese puerto se redirige hacia **un puerto en tu máquina local** a través del túnel SSH.
 
@@ -60,6 +60,8 @@ Borrar un túnel:
 ```
 kill id
 ```
+
+La `id` 
 
 Para borrar todos los túneles:
 

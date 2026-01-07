@@ -50,3 +50,8 @@ Ejecución muy silenciosa
 nmap -sS -n -Pn -sV -p- [IP objetivo]
 ```
 
+Ejecución de escaneo de red
+
+```
+nmap -sP <red>/<interfaz de red>
+```

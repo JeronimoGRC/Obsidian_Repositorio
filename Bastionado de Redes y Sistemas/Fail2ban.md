@@ -44,6 +44,7 @@ bantime = 600
 #### Comandos clave
 
 ```
+fail2ban-client restart sshd
 fail2ban-client status sshd
 fail2ban-client set sshd unbanip <IP>
 ```

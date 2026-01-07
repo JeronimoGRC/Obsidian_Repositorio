@@ -68,3 +68,18 @@ $ knock -v <IP> <combinación de puertos>
 ```
 
 Cuando abramos el puerto y hagamos el escaneo aparecerá `open`, pero si todavía no lo hemos abierto o en su defecto está cerrado aparecerá `filtered`.
+
+---
+
+## Configuración para la interfaz de red
+
+- Fichero de configuración -> `/etc/default/knockd`.
+
+En el caso de que se tenga que cambiar la configuración será la siguiente fila:
+
+```
+# command line options
+#KNOCKD_OPTS="-i eth01"
+```
+
+Y cambiar la interfaz de red por la que funciona en el equipo.

@@ -328,11 +328,3 @@ lastlog
 ```
 last
 ```
-
----
-
-### Comando curl
-
-```
-
-```

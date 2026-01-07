@@ -151,7 +151,7 @@ Además de los ficheros típicos de Linux, Kali incluye:
 ## 🔪 **[[John The Ripper]]**
 
 
-### Knock
+### [[Port Knocking]]
 
 - `/etc/knockd.conf` -> Fichero de configuración del servicio knock.
 - `/var/log/knockd.log` -> Fichero de logs del servicio Knock
