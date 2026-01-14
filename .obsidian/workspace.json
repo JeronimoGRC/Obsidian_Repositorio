@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "71749dfe98e85164",
+    "id": "53054a2fe7438779",
     "type": "split",
     "children": [
       {
-        "id": "ab550e77529cf720",
+        "id": "2c7ab6604acdc5b2",
         "type": "tabs",
         "children": [
           {
-            "id": "17ae9dfb504affb1",
+            "id": "bb33aa419822aa6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes y Sistemas/Administración/Administración local/Pamcracklib.md",
+                "file": "Bastionado de Redes y Sistemas/Administración/Port Knocking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pamcracklib"
+              "title": "Port Knocking"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7a062a2eddf6e3a8",
+    "id": "16195c560d5ebfdf",
     "type": "split",
     "children": [
       {
-        "id": "8fca898678de7c94",
+        "id": "0ea3a49dd542f1b9",
         "type": "tabs",
         "children": [
           {
-            "id": "83c9eaa383668eed",
+            "id": "ebbf45c3b3c97e94",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "e9edb4bb51de9671",
+            "id": "1478e8e69eb73911",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "40d6f91197ad2d62",
+            "id": "88a72cea9cebdd38",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "58a4fd810ed120df",
+    "id": "8cd832594d12b6d5",
     "type": "split",
     "children": [
       {
-        "id": "d09dbc7a75fe4d4f",
+        "id": "2ce513dbb4d92504",
         "type": "tabs",
         "children": [
           {
-            "id": "86e93474fd7d1c36",
+            "id": "fb3107f1a9cdefe9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL Básico/SQL.md",
+                "file": "Ficheros y directorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,40 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de SQL"
+              "title": "Enlaces entrantes de Ficheros y directorios"
             }
           },
           {
-            "id": "56f2efb2ade2aff7",
+            "id": "448d97869452edd8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL Básico/SQL.md",
+                "file": "Ficheros y directorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de SQL"
+              "title": "Enlaces salientes de Ficheros y directorios"
             }
           },
           {
-            "id": "3c3103b85259956e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "SQL Básico/SQL.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Esquema de SQL"
-            }
-          },
-          {
-            "id": "cd4fcfd6b969108e",
+            "id": "524877e4554c23cf",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,7 +137,7 @@
             }
           },
           {
-            "id": "2f9721444a74c94f",
+            "id": "263678eb878a40cb",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -164,13 +149,27 @@
               "icon": "lucide-archive",
               "title": "Todas las propiedades"
             }
+          },
+          {
+            "id": "2522e4241d9eb3af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ficheros y directorios.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Ficheros y directorios"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -184,54 +183,47 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "17ae9dfb504affb1",
+  "active": "bb33aa419822aa6f",
   "lastOpenFiles": [
+    "Bastionado de Redes y Sistemas/Administración/SSH/SCP.md",
+    "Bastionado de Redes y Sistemas/Administración/Encriptación GPG.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH/SSH-Agent.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH/PKI-SSH.md",
+    "Bastionado de Redes y Sistemas/Administración/Port Knocking.md",
     "Bastionado de Redes y Sistemas/Administración/Fail2ban.md",
     "Bastionado de Redes y Sistemas/Administración/Tema 2.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/SSH-Tunnels.md",
-    "Bastionado de Redes y Sistemas/Administración",
-    "Bastionado de Redes y Sistemas/Administración/SSH/PKI-SSH.md",
-    "Bastionado de Redes y Sistemas/Administración/Encriptación GPG.md",
-    "Bastionado de Redes y Sistemas/Bastionado de Redes y Sistemas.md",
     "Bastionado de Redes y Sistemas/Administración/Administración local/Pamcracklib.md",
     "Bastionado de Redes y Sistemas/Administración/Administración local/Administración local.md",
-    "Tareas/TrazadoVulnerabilidadGoAnywhere.md",
+    "Bastionado de Redes y Sistemas/Bastionado de Redes y Sistemas.md",
     "Tareas.rar",
-    "Tareas/img/Pasted image 20260109112635.png",
-    "Tareas/img",
-    "Tareas/img/Pasted image 20260109123906.png",
-    "Tareas/img/Pasted image 20260109123840.png",
-    "Tareas/img/Pasted image 20260109122325.png",
-    "Tareas/img/Pasted image 20260109122306.png",
-    "Tareas/img/Pasted image 20260109122240.png",
-    "Tareas/img/Pasted image 20260109122215.png",
-    "Tareas/img/Pasted image 20260109122154.png",
-    "Tareas/img/Pasted image 20260109121604.png",
-    "Tareas/img/Pasted image 20260109120821.png",
-    "().md",
-    "20260109-1025-27.0409662.mp4",
-    "Ficheros y directorios.md",
-    "Comandos Linux.md",
-    "Bastionado de Redes y Sistemas/Administración/Port Knocking.md",
-    "OpenWebinars/Bash Scripting/Bash Scripting.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH/SSH.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH/SSH-Tunnels.md",
     "Bastionado de Redes y Sistemas/Administración/SSH/SFTP.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/SCP.md",
-    "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/NMAP.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/SSH-Agent.md",
     "Bastionado de Redes y Sistemas/Administración/SSH/PSSH.md",
-    "OpenWebinars/Bash Scripting",
-    "Sin título.canvas",
-    "2025-12-28.md",
-    "Sin título.base",
-    "Bastionado de Redes y Sistemas/Administración local/AWK.md",
-    "OpenWebinars/Taller Criptografía/Taller Criptografía.md",
-    "OpenWebinars/Taller Criptografía/Taller_de_Criptografía_Simétrica_y_Asimétrica.pdf",
-    "OpenWebinars/Taller Criptografía/Sin confirmar 440516.crdownload",
-    "OpenWebinars/SQL Básico/SQL.md",
-    "OpenWebinars/Taller Criptografía",
-    "OpenWebinars",
-    "OpenWebinars/SQL Básico/Base de datos.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH",
+    "Bastionado de Redes y Sistemas/Administración/Administración local",
+    "Bastionado de Redes y Sistemas/Administración",
+    "Bastionado de Redes y Sistemas/Encriptación GPG.md",
+    "Bastionado de Redes y Sistemas/Administración local/Administración local.md",
+    "Bastionado de Redes y Sistemas/Administración local/Pamcracklib.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/Shell Inversa.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/Nikto.md",
+    "Bastionado de Redes y Sistemas/SSH/PKI-SSH.md",
+    "Hacking Ético/Herramientas HE/Fuerza Bruta y Cracking/John The Ripper.md",
     "Hacking Ético/Herramientas HE/Hacking Web/Netcat.md",
-    "Hacking Ético/Herramientas HE/Hacking Web/Nikto.md"
+    "Bastionado de Redes y Sistemas/Fail2ban.md",
+    "Bastionado de Redes y Sistemas/Port Knocking.md",
+    "Bastionado de Redes y Sistemas/SSH/SSH-Tunnels.md",
+    "img/Pasted image 20251231191542.png",
+    "img/Pasted image 20251231191512.png",
+    "img/Pasted image 20251231190326.png",
+    "img/Pasted image 20251231190237.png",
+    "img/Pasted image 20251231185720.png",
+    "img/Pasted image 20251231184922.png",
+    "img/Pasted image 20251231130647.png",
+    "img/Pasted image 20251231130021.png",
+    "img/Pasted image 20251230133534.png",
+    "img/Pasted image 20251230133431.png",
+    "Tareas"
   ]
 }

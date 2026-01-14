@@ -48,7 +48,7 @@ Para **cifrado asimétrico**:
 - Generar el par de claves (pública y privada).
 
 ```
-gpg --full-generate-key
+gpg --full-generate-key --pinentry-mode loopback
 ```
 
 Para mostrar las claves generadas:
@@ -62,7 +62,7 @@ Tenemos que tener en cuenta que usaremos como identificador de las claves el cor
 #### Exportar clave pública.
 
 ```
-gpg -a --export <correo_identificador> > <clave_publica>.gpg.asc
+gpg -a -o clave_publica.gpg.asc --export <correo identificador de la clave>
 ```
 
 	 `-a` Para que la salida sea ASCII

@@ -8,7 +8,6 @@ ssh-agent /bin/bash
 ps aux | grep ssh #Para ver el agente en ejecución
 ```
 
-
 ### Añadir una clave al agente
 
 ```
