@@ -58,6 +58,34 @@ Ejemplo:
 sequence = 9000,8000,7000
 ```
 
+**Ejemplo:**
+
+*`[open...]`*:
+
+```
+[openSSH]
+		sequence = 7000,8000,9000
+		seq_timeout = 5
+		command = iptables -D INPUT -p tcp --dport <numero_puerto> -j DROP
+		tcpflags = syn
+```
+
+*`[close...]`*:
+
+```
+[closeSSH]
+		sequence = 8100,8200,8300
+		seq_timeout = 5
+		command = iptables -A INPUT -p tcp --dport <numero_puerto> -j DROP
+		tcpflags = syn
+```
+
+Con estos ejemplos se sobreentiende que el servicio tiene el puerto `filtered`:
+
+```
+/sbin/iptables -A INPUT -p tcp --dport <puerto> -j DROP
+```
+
 ---
 
 ## Apertura y cierre del puerto desde cliente
