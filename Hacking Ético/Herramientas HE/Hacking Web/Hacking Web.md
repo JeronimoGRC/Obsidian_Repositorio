@@ -14,3 +14,4 @@ Herramientas
 
 - [[Nikto]]
 - Prácticas de [[Shell Inversa]]
+- [[WPScan]]

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ab550e77529cf720",
+        "id": "90e9170ac7f7f36e",
         "type": "tabs",
         "children": [
           {
-            "id": "17ae9dfb504affb1",
+            "id": "d436a632081db154",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes y Sistemas/Administración/Administración local/Pamcracklib.md",
+                "file": "Hacking Ético/Herramientas HE/Hacking Web/WPScan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pamcracklib"
+              "title": "WPScan"
             }
           }
         ]
@@ -184,16 +184,20 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "17ae9dfb504affb1",
+  "active": "d436a632081db154",
   "lastOpenFiles": [
+    "Hacking Ético/Herramientas HE/Hacking Web/Hacking Web.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/WPScan.md",
+    "Bastionado de Redes y Sistemas/Administración/Port Knocking.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH/PKI-SSH.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH/SSH.md",
+    "Bastionado de Redes y Sistemas/Administración/Administración local/Pamcracklib.md",
     "Bastionado de Redes y Sistemas/Administración/Fail2ban.md",
     "Bastionado de Redes y Sistemas/Administración/Tema 2.md",
     "Bastionado de Redes y Sistemas/Administración/SSH/SSH-Tunnels.md",
     "Bastionado de Redes y Sistemas/Administración",
-    "Bastionado de Redes y Sistemas/Administración/SSH/PKI-SSH.md",
     "Bastionado de Redes y Sistemas/Administración/Encriptación GPG.md",
     "Bastionado de Redes y Sistemas/Bastionado de Redes y Sistemas.md",
-    "Bastionado de Redes y Sistemas/Administración/Administración local/Pamcracklib.md",
     "Bastionado de Redes y Sistemas/Administración/Administración local/Administración local.md",
     "Tareas/TrazadoVulnerabilidadGoAnywhere.md",
     "Tareas.rar",
@@ -212,7 +216,6 @@
     "20260109-1025-27.0409662.mp4",
     "Ficheros y directorios.md",
     "Comandos Linux.md",
-    "Bastionado de Redes y Sistemas/Administración/Port Knocking.md",
     "OpenWebinars/Bash Scripting/Bash Scripting.md",
     "Bastionado de Redes y Sistemas/Administración/SSH/SFTP.md",
     "Bastionado de Redes y Sistemas/Administración/SSH/SCP.md",
@@ -229,9 +232,6 @@
     "OpenWebinars/Taller Criptografía/Sin confirmar 440516.crdownload",
     "OpenWebinars/SQL Básico/SQL.md",
     "OpenWebinars/Taller Criptografía",
-    "OpenWebinars",
-    "OpenWebinars/SQL Básico/Base de datos.md",
-    "Hacking Ético/Herramientas HE/Hacking Web/Netcat.md",
-    "Hacking Ético/Herramientas HE/Hacking Web/Nikto.md"
+    "OpenWebinars"
   ]
 }
