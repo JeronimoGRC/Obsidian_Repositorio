@@ -14,3 +14,5 @@ Herramientas
 
 - [[Nikto]]
 - Prácticas de [[Shell Inversa]]
+- [[WPScan]]
+- [[Burp Suite]]

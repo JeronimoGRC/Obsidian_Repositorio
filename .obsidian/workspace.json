@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Herramientas HE/Hacking Web/Netcat.md",
+                "file": "Hacking Ético/Herramientas HE/Ataques de red/Man In The Middle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Netcat"
+              "title": "Man In The Middle"
             }
           }
         ]
@@ -185,6 +185,12 @@
   },
   "active": "d01af9417c49cc11",
   "lastOpenFiles": [
+    "Hacking Ético/Herramientas HE/Fuerza Bruta y Cracking/Fuerza Bruta y Cracking de Contraseñas.md",
+    "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Reconocimiento y escaneo.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/Hacking Web.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/WPScan.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/Burp Suite.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/Netcat.md",
     "Hacking Ético/Herramientas HE/Hacking Web/Shell Inversa.md",
     "Protocolos/HTTP.md",
     "Protocolos/HTTPS.md",
@@ -218,12 +224,6 @@
     "Bastionado de Redes y Sistemas/Administración",
     "Bastionado de Redes y Sistemas/Encriptación GPG.md",
     "Bastionado de Redes y Sistemas/Administración local/Administración local.md",
-    "Bastionado de Redes y Sistemas/Administración local/Pamcracklib.md",
-    "Hacking Ético/Herramientas HE/Hacking Web/Nikto.md",
-    "Bastionado de Redes y Sistemas/SSH/PKI-SSH.md",
-    "Hacking Ético/Herramientas HE/Fuerza Bruta y Cracking/John The Ripper.md",
-    "Hacking Ético/Herramientas HE/Hacking Web/Netcat.md",
-    "Bastionado de Redes y Sistemas/Fail2ban.md",
     "img/Pasted image 20251231191542.png",
     "img/Pasted image 20251231191512.png",
     "Tareas"

@@ -3,7 +3,7 @@
 
 **Nikto** es un escáner web de código abierto que identifica vulnerabilidades de configuración y seguridad en servidores web. 
 
-Puede detectar configuraciones erróneas comunes, versiones desactualizadas de software, y archivos o scripts potencialmente peligrosos.
+Puede detectar configuraciones erróneas comunes, versiones desactualizadas de software, y archivos, directorios o scripts potencialmente peligrosos.
 
 ---
 ## Flags
@@ -22,7 +22,7 @@ Puede detectar configuraciones erróneas comunes, versiones desactualizadas de s
 Escaneo básico
 
 ```
-nikto -h http://<Ejemplo>
+nikto -h [http://<Ejemplo> o <IP>]
 ```
 
 Escaneo de un puerto específico
