@@ -22,7 +22,7 @@ Puede detectar configuraciones erróneas comunes, versiones desactualizadas de s
 Escaneo básico
 
 ```
-nikto -h http://<Ejemplo> o <IP> 
+nikto -h [http://<Ejemplo> o <IP>]
 ```
 
 Escaneo de un puerto específico
