@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2c7ab6604acdc5b2",
+        "id": "d32bb4d33b0826b9",
         "type": "tabs",
         "children": [
           {
-            "id": "bb33aa419822aa6f",
+            "id": "d01af9417c49cc11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes y Sistemas/Administración/Port Knocking.md",
+                "file": "Hacking Ético/Herramientas HE/Hacking Web/Netcat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Port Knocking"
+              "title": "Netcat"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 311.5110321044922
   },
   "right": {
     "id": "8cd832594d12b6d5",
@@ -183,47 +183,49 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "bb33aa419822aa6f",
+  "active": "d01af9417c49cc11",
   "lastOpenFiles": [
-    "Bastionado de Redes y Sistemas/Administración/SSH/SCP.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/Shell Inversa.md",
+    "Protocolos/HTTP.md",
+    "Protocolos/HTTPS.md",
+    "__rar_11304.32444.rartemp",
+    "Analisis de Vulnerabilidades/Pasted image 20260116185359.png",
+    "Analisis de Vulnerabilidades/Pasted image 20260116185340.png",
+    "Pasted image 20260116175853.png",
+    "Pasted image 20260116175754.png",
+    "Pasted image 20260116174209.png",
+    "Pasted image 20260116174148.png",
+    "Pasted image 20260116173940.png",
+    "Pasted image 20260116172838.png",
+    "Análisis de Vulnerabilidades.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH/SSH-Tunnels.md",
+    "Bastionado de Redes y Sistemas/Administración/Fail2ban.md",
     "Bastionado de Redes y Sistemas/Administración/Encriptación GPG.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH/SCP.md",
     "Bastionado de Redes y Sistemas/Administración/SSH/SSH-Agent.md",
     "Bastionado de Redes y Sistemas/Administración/SSH/PKI-SSH.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH/SFTP.md",
+    "Bastionado de Redes y Sistemas/Administración/SSH/PSSH.md",
     "Bastionado de Redes y Sistemas/Administración/Port Knocking.md",
-    "Bastionado de Redes y Sistemas/Administración/Fail2ban.md",
     "Bastionado de Redes y Sistemas/Administración/Tema 2.md",
     "Bastionado de Redes y Sistemas/Administración/Administración local/Pamcracklib.md",
     "Bastionado de Redes y Sistemas/Administración/Administración local/Administración local.md",
     "Bastionado de Redes y Sistemas/Bastionado de Redes y Sistemas.md",
     "Tareas.rar",
     "Bastionado de Redes y Sistemas/Administración/SSH/SSH.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/SSH-Tunnels.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/SFTP.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/PSSH.md",
     "Bastionado de Redes y Sistemas/Administración/SSH",
     "Bastionado de Redes y Sistemas/Administración/Administración local",
     "Bastionado de Redes y Sistemas/Administración",
     "Bastionado de Redes y Sistemas/Encriptación GPG.md",
     "Bastionado de Redes y Sistemas/Administración local/Administración local.md",
     "Bastionado de Redes y Sistemas/Administración local/Pamcracklib.md",
-    "Hacking Ético/Herramientas HE/Hacking Web/Shell Inversa.md",
     "Hacking Ético/Herramientas HE/Hacking Web/Nikto.md",
     "Bastionado de Redes y Sistemas/SSH/PKI-SSH.md",
     "Hacking Ético/Herramientas HE/Fuerza Bruta y Cracking/John The Ripper.md",
     "Hacking Ético/Herramientas HE/Hacking Web/Netcat.md",
     "Bastionado de Redes y Sistemas/Fail2ban.md",
-    "Bastionado de Redes y Sistemas/Port Knocking.md",
-    "Bastionado de Redes y Sistemas/SSH/SSH-Tunnels.md",
     "img/Pasted image 20251231191542.png",
     "img/Pasted image 20251231191512.png",
-    "img/Pasted image 20251231190326.png",
-    "img/Pasted image 20251231190237.png",
-    "img/Pasted image 20251231185720.png",
-    "img/Pasted image 20251231184922.png",
-    "img/Pasted image 20251231130647.png",
-    "img/Pasted image 20251231130021.png",
-    "img/Pasted image 20251230133534.png",
-    "img/Pasted image 20251230133431.png",
     "Tareas"
   ]
 }
