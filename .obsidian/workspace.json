@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Herramientas HE/Hacking Web/Burp Suite.md",
+                "file": "Hacking Ético/Herramientas HE/Hacking Web/Nikto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Burp Suite"
+              "title": "Nikto"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "177680d23907c448",
   "lastOpenFiles": [
+    "Hacking Ético/Herramientas HE/Hacking Web/WPScan.md",
     "Hacking Ético/Herramientas HE/Hacking Web/Burp Suite.md",
     "Hacking Ético/Herramientas HE/Burp Suite.md",
     "Hacking Ético/Burp Suite.md",
