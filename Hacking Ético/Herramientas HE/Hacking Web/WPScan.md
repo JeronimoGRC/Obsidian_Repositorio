@@ -30,7 +30,9 @@ Para incluir tu token de usuario y que pueda hacer las búsquedas pertinentes de
 nano ~/.wpscan/scan.yml
 ```
 
-Y en la parte inferior del fichero incluimos el siguiente bloque de código:
+La carpeta `.wpscan` debe estar en la carpeta en la que trabajemos.
+
+Y en el fichero incluimos el siguiente bloque de código:
 
 ```
 cli_options:
@@ -77,13 +79,13 @@ Algunos sitios tienen configuraciones defensivas.
 Evitar TLS verify:
 
 ```
-wpscan --url https://target.tld --disable-tls-checks`
+wpscan --url https://target.tld --disable-tls-checks
 ```
 
 Cambiar user-agent:
 
 ```
-wpscan --url https://target.tld --random-user-agent`
+wpscan --url https://target.tld --random-user-agent
 ```
 
 Ajustar timeout:

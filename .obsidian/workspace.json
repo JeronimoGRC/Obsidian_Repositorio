@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5110321044922,
-    "collapsed": true
+    "width": 311.5110321044922
   },
   "right": {
     "id": "8cd832594d12b6d5",
@@ -186,11 +185,12 @@
   },
   "active": "d01af9417c49cc11",
   "lastOpenFiles": [
+    "Hacking Ético/Herramientas HE/Hacking Web/Nikto.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/WPScan.md",
     "Hacking Ético/Herramientas HE/Ataques de red/Man In The Middle.md",
     "Hacking Ético/Herramientas HE/Fuerza Bruta y Cracking/Fuerza Bruta y Cracking de Contraseñas.md",
     "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Reconocimiento y escaneo.md",
     "Hacking Ético/Herramientas HE/Hacking Web/Hacking Web.md",
-    "Hacking Ético/Herramientas HE/Hacking Web/WPScan.md",
     "Hacking Ético/Herramientas HE/Hacking Web/Burp Suite.md",
     "Hacking Ético/Herramientas HE/Hacking Web/Netcat.md",
     "Hacking Ético/Herramientas HE/Hacking Web/Shell Inversa.md",
@@ -224,7 +224,6 @@
     "Bastionado de Redes y Sistemas/Administración/SSH",
     "Bastionado de Redes y Sistemas/Administración/Administración local",
     "Bastionado de Redes y Sistemas/Administración",
-    "Bastionado de Redes y Sistemas/Encriptación GPG.md",
     "img/Pasted image 20251231191542.png",
     "img/Pasted image 20251231191512.png",
     "Tareas"
