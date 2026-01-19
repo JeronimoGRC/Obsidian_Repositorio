@@ -46,6 +46,12 @@ Escaneo básico:
 wpscan --url https://<URL> --api-token <mi_token>
 ```
 
+El parámetro `--api-token` se añadirá al final de cada comando para que los escaneos tengan efecto.
+
+`<mi_token>` es el token que debemos obtener de la [página oficial](https://wpscan.com/profile/).
+
+Existen otras formas no especificadas en este documento para incluir la api-token y que tenga un efecto permanente. 
+
 Ejemplo escaneo con `--enumerate`:
 
 ```
