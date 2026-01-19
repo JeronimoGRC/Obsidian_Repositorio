@@ -18,7 +18,7 @@ La opción —**enumerate** pone a nuestra disposición el tipo de vulnerabilid
 - ``tt`` Timthumbs.
 - ``cb`` Config backups.
 - ``dbe`` Db exports.
-- ``u`` Cuentas de usuario.
+- ``u`` Cuentas de usuario. 
 
 ---
 
@@ -57,10 +57,14 @@ Existen otras formas no especificadas en este documento para incluir la api-toke
 Ejemplo escaneo con `--enumerate`:
 
 ```
-wpscan --url http://<> --enumerate u
+wpscan --url http://<IP> --enumerate u
 ```
 
 Si queremos enumerar cualquier otra cosa, solo tendremos que cambiar la flag.
+
+En el caso de `u`  comprueba los ids de usuario. 
+Ejemplo para sacar más ids: `u1-100` por defecto suele coger
+
 
 Y si queremos incluir una lista de usuarios y claves a comprobar vamos a realizar lo siguiente:
 
