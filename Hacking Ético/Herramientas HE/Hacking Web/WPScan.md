@@ -63,8 +63,7 @@ wpscan --url http://<IP> --enumerate u
 Si queremos enumerar cualquier otra cosa, solo tendremos que cambiar la flag.
 
 En el caso de `u`  comprueba los ids de usuario. 
-Ejemplo para sacar más ids: `u1-100` por defecto suele coger
-
+Ejemplo para sacar más ids: `u1-100` por defecto suele coger del 1-10
 
 Y si queremos incluir una lista de usuarios y claves a comprobar vamos a realizar lo siguiente:
 
