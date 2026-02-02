@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d32bb4d33b0826b9",
+        "id": "accab361b5ea0579",
         "type": "tabs",
         "children": [
           {
-            "id": "d01af9417c49cc11",
+            "id": "9400d8ca8917a69f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Herramientas HE/Hacking Web/WPScan.md",
+                "file": "Hacking Ético/Herramientas HE/Hacking Web/Envenenamiento de Logs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WPScan"
+              "title": "Envenenamiento de Logs"
             }
           }
         ]
@@ -184,10 +184,35 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "d01af9417c49cc11",
+  "active": "9400d8ca8917a69f",
   "lastOpenFiles": [
-    "Hacking Ético/Herramientas HE/Hacking Web/Nikto.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/File Upload.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/Envenenamiento de Logs.md",
+    "img/Pasted image 20260131120853.png",
+    "img/Pasted image 20260131120730.png",
+    "img/Pasted image 20260131120110.png",
+    "img/Pasted image 20260131115651.png",
+    "Hacking Ético/Herramientas HE/Escalada de Privilegios",
+    "img/Pasted image 20260131114350.png",
+    "Hacking Ético/Herramientas HE/Hacking Web/File Inclusion.md",
+    "Comandos Linux.md",
+    "Ficheros y directorios.md",
+    "Ciberseguridad.md",
+    "Protocolos/Protocolos.md",
+    "img/Pasted image 20260131103956.png",
+    "Sin título 1.base",
+    "Sin título.base",
+    "img/Pasted image 20260131102501.png",
+    "img/Pasted image 20260131102145.png",
+    "Hacking Ético/Herramientas HE/Hacking Web/XSS.md",
+    "img/Pasted image 20260128163216.png",
+    "img/Pasted image 20260128160739.png",
+    "Hacking Ético/Herramientas HE/Hacking Web/SQLmap.md",
+    "Protocolos/SQL.md",
+    "Hacking Ético/Herramientas HE/Fuerza Bruta y Cracking/John The Ripper.md",
     "Hacking Ético/Herramientas HE/Hacking Web/WPScan.md",
+    "Tarea Obligatoria RA2.md",
+    "Hacking Ético/Herramientas HE/Hacking Web/Nikto.md",
     "Hacking Ético/Herramientas HE/Ataques de red/Man In The Middle.md",
     "Hacking Ético/Herramientas HE/Fuerza Bruta y Cracking/Fuerza Bruta y Cracking de Contraseñas.md",
     "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/Reconocimiento y escaneo.md",
@@ -198,35 +223,12 @@
     "Protocolos/HTTP.md",
     "Protocolos/HTTPS.md",
     "__rar_11304.32444.rartemp",
-    "Analisis de Vulnerabilidades/Pasted image 20260116185359.png",
-    "Analisis de Vulnerabilidades/Pasted image 20260116185340.png",
-    "Pasted image 20260116175853.png",
-    "Pasted image 20260116175754.png",
-    "Pasted image 20260116174209.png",
-    "Pasted image 20260116174148.png",
-    "Pasted image 20260116173940.png",
-    "Pasted image 20260116172838.png",
     "Análisis de Vulnerabilidades.md",
     "Bastionado de Redes y Sistemas/Administración/SSH/SSH-Tunnels.md",
-    "Bastionado de Redes y Sistemas/Administración/Fail2ban.md",
-    "Bastionado de Redes y Sistemas/Administración/Encriptación GPG.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/SCP.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/SSH-Agent.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/PKI-SSH.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/SFTP.md",
-    "Bastionado de Redes y Sistemas/Administración/SSH/PSSH.md",
-    "Bastionado de Redes y Sistemas/Administración/Port Knocking.md",
-    "Bastionado de Redes y Sistemas/Administración/Tema 2.md",
-    "Bastionado de Redes y Sistemas/Administración/Administración local/Pamcracklib.md",
-    "Bastionado de Redes y Sistemas/Administración/Administración local/Administración local.md",
-    "Bastionado de Redes y Sistemas/Bastionado de Redes y Sistemas.md",
     "Tareas.rar",
-    "Bastionado de Redes y Sistemas/Administración/SSH/SSH.md",
     "Bastionado de Redes y Sistemas/Administración/SSH",
     "Bastionado de Redes y Sistemas/Administración/Administración local",
     "Bastionado de Redes y Sistemas/Administración",
-    "img/Pasted image 20251231191542.png",
-    "img/Pasted image 20251231191512.png",
     "Tareas"
   ]
 }
