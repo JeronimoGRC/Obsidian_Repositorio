@@ -69,6 +69,10 @@ Pero al tener una longitud predefinida en la etiqueta HTML tendremos que modific
 
 ![[Pasted image 20260128163216.png]]
 
+```
+<Script>alert("Hacked")</Script><Script>alert("Hacked")</Script>
+```
+
 **Nivel Alto**
 
 La fortificación de esta opción consta de lo siguiente:
