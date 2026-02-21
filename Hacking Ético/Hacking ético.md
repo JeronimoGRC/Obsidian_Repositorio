@@ -36,6 +36,8 @@ Los ataques de Fuerza bruta consisten en probar múltiples contraseñas, diccion
 ### [[Hacking Web]]:
 
 - Nikto
-- 
+
+
+### [[Escalada de Privilegios]]
 
 

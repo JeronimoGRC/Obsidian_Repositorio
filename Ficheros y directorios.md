@@ -1,157 +1,118 @@
 ---
 
 ---
----
 
-# Directorios
-
-## Linux Normal
+## Carpetas más importantes de Linux
 
 ---
+### 🧩 `/bin` -> Binarios esenciales para los usuarios.
 
-### ⚙️ **/etc** — Configuración del sistema
+- Algunos sistemas modernos lo enlazan a `/usr/bin`
 
-Archivos importantes:
+### 🧩 `/sbin` -> Binarios esenciales para la administración del sistema.
 
-- `/etc/passwd` → usuarios
-    
-- `/etc/shadow` → hashes de contraseñas en el siguiente formato: `$id$salt$hash`
-    
-- `/etc/group` → grupos
-    
-- `/etc/sudoers` → permisos sudo
-    
-- `/etc/hosts` → resolución local
-    
-- `/etc/hostname` → nombre del host
-    
-- `/etc/network/interfaces` → configuración de red (distros basadas en Debian)
+- Requieren, normalmente, privilegios de *root*
 
----
+### 🔛 `/boot` -> Archivos necesarios para el arranque.
 
-### 🔐 **/sbin** y **/usr/sbin**
+### `/dev` -> Dispositivos representados como archivos.
 
-Herramientas administrativas para root (`iptables`, `service`, `mount`).
+### ⚙️ `/etc` -> Archivos de configuración del sistema.
 
----
-### 🧩 **/usr**
+### 🏠`/home` -> Directorios personales de los usuarios.
 
-Contiene:
+### 👨‍💼 `/root` -> Directorio personal del usuario root.
 
-- `/usr/bin` → programas
-    
-- `/usr/sbin` → herramientas admin
-    
-- `/usr/lib` → librerías
-    
-- `/usr/share` → archivos compartidos (iconos, manuales, datos)
+### `/usr` -> Software y datos compartidos.
 
----
-### 🧪 **/tmp**
+- Subdirectorios importantes:
+	- `/usr/bin` -> programas
+	-  `/usr/sbin` -> herramientas administrativas
+	- `/usr/lib` -> bibliotecas
+	- `/usr/share` -> datos independientes de arquitectura
 
-Archivos temporales borrados al reiniciar.
+### `/var` -> Datos variables.
+
+- Subdirectorios importantes:
+	- `/var/www/html` -> Raíz del servidor Apache.
+	- `/var/log` -> Logs del sistema.
+	- `/var/lib` -> Estado de servicios.
+
+### ⏱️ `/tmp` -> Archivos temporales.
+
+### `/opt` -> Software adicional instalado manualmente.
+
+### 📸 `/media` -> Montaje automático de dispositivos extraíbles. 
 
 ---
-### 📦 **/opt**
+## 🧑‍💼📁 Configuraciones global de usuario
 
-Programas instalados manualmente o externos.
+Se ubican en la carpeta `/etc`:
+
+- `/etc/passwd` -> Lista de usuarios.
+- `/etc/shadow` -> Hashes de las contraseñas.
+- `/etc/group` -> Grupos del sistema.
+- `/etc/sudoers` -> Permisos de sudo.
+- `/etc/pam.d` -> Configuración de autenticación PAM por servicio.
+
+## 🛜 Configuración de red
+
+- `/etc/hosts` -> Archivo de asociación manual IP <-> hostname.
+- `/etc/hostname` -> Nombre del equipo.
+- `/etc/hosts.allow` y `/etc/hosts.deny`-> Control de acceso TCP.
+- `/etc/network/interfaces` -> Configuración clásica de interfaces.
+
+## Servicios y demonios
+
+- `/etc/systemd/system` -> Servicios personalizados.
+- `/lib/systemd/system` -> Servicios instalados por paquetes.
+
+## [[SSH]]
+
+- `/etc/ssh/sshd_config` -> Configuración del servicio **SSH**.
+- `~/.ssh/authorized_keys` -> Claves autorizadas.
+
+## 📎Tareas programadas
+
+- `/etc/crontab`
+- `/etc/cron.d/`
+- `/etc/cron.daily/`
+
+## 📋Logs y auditorías
+
+- `/var/log/`:
+	- `auth.log`
+	- `secure`
+	- `kern.log`
+	- `apache2/`, `nginx/`
 
 ---
 
 ## Kali Linux
 
-### 🧰 **/usr/share/**
+### 🔧Herramientas y binarios clave
 
-Contiene los recursos de todas las herramientas de seguridad:
-- `/usr/share/nmap/scripts/` → scripts NSE
-    
-- `/usr/share/metasploit-framework/` → módulos de Metasploit
-    
-- `/usr/share/wordlists/`
-    
-    - Incluye **rockyou.txt**
----
-### 🧨 **/opt/** — Herramientas instaladas manualmente
-
-Kali lo usa muchísimo:
-
-- `/opt/metasploit/`
-    
-- `/opt/wordlists/`
-    
-- `/opt/burpsuite/`
-    
-- Herramientas externas de GitHub (gobuster, linpeas, etc.)
----
-### 📝 **/etc/** (Kali añade configuraciones extra)
-
-Además de los ficheros típicos de Linux, Kali incluye:
-
-- `/etc/metasploit-framework/`
-    
-- `/etc/nmap/`
-    
-- `/etc/ssh/`
-    
-- `/etc/hosts.allow` y `/etc/hosts.deny` (control de accesos)
-
----
-# Archivos
-
-## 🧑‍💻 **Usuarios, contraseñas y grupos**
-
-- `/etc/passwd` -> Lista de usuarios del sistema
-- `/etc/shadow` -> Hashes de contraseñas
-- `/etc/group` -> Grupos del sistema
-- `/etc/gshadow` -> Grupos seguros
-
----
-
-## 🔏 **Políticas de contraseñas y autenticación**
-
-- `/etc/login.defs` -> Reglas globales de contraseñas
-- `/etc/pam.d/` -> Configuración de PAM
-- `/etc/pam.d/common-auth` -> Reglas de autenticación
-- `/etc/pam.d/common-password` -> Complejidad de contraseñas
-
----
-
-## **🌐 Red, servicios y hosts**
-
-- `/etc/hosts` -> Resolución local de nombres
-- `/etc/hostname` -> Nombre de la máquina
-- `/etc/network/interfaces` -> Configuración manual de red
----
-
-## 🔥 **Firewall y seguridad del kernel**
-
-- `/etc/ufw` -> Configuración del firewall UFW
-- `/etc/ufw/ufw.conf` -> Activación y políticas
-- `/etc/sysctl.conf` -> Parámetros del kernel 
-
----
-## 🛠️ **Archivos importantes de configuración de servicios**
-
-### ⬛ **[[SSH]]**
-
-- `/etc/ssh/sshd_config` -> Configuración del servidor SSH
-- `/etc/ssh/ssh_config` -> Configuración del cliente SSH
-
-### 🌐 **Apache**
-
-- `/etc/apache2/apache2.conf` -> Configuración principal
-- `/etc/apache2/ports.conf` -> Puertos
-- `/etc/apache2/sites-available/` -> Virtual hosts
-- `/var/www/html/` -> Ubicación de la página de Apache2
-
-### 📨 **FTP (vsftpd)**
-
-- `/etc/vsftpd.conf` -> Configuración FTP segura
-
-## 🔪 **[[John The Ripper]]**
+- `/usr/bin` -> Contiene la mayoría de todas las herramientas.
+- `/usr/share/` ->
+	- `/usr/share/wordlists`->
+		- `rockyou.txt`.
+		- Listas para fuzzing y fuerza bruta.
+	- `/usr/share/metasploit-framework/`-> Módulos de explotación, payloads, exploits usuales.
+	- `/usr/share/sqlmap/` -> Scripts internos de [[SQLmap]].
+	- `/usr/share/nmap/` -> Scripts de [[NMAP]] en formato `.nse`.
+	- `/usr/share/john` -> Incluye un diccionario de contraseñas y reglas internas 
+	- `/usr/share/exploitdb/` -> Base de datos local de exploits usado con searchsploit.
+	- `/usr/share/webshells/` -> Scripts para shell inversa
 
 
-### [[Port Knocking]]
+### Configuración de Proxy
 
-- `/etc/knockd.conf` -> Fichero de configuración del servicio knock.
-- `/var/log/knockd.log` -> Fichero de logs del servicio Knock
+- `/etc/proxychains.conf` -> Pivoting, encadenamiento de proxys
+
+### Herramientas que no siguen estructura estándar.
+
+Ejemplo frecuente:
+
+- `/opt/BloodHound/`
+- `/opt/linpeas/`
+- `/opt/kerbrute/`
