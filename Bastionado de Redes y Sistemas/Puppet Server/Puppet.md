@@ -129,3 +129,61 @@ package { 'iptables':
 }
 ```
 
+### `file`:
+
+- **ensure**: `file`, `directory` o `present`.
+- **source**: Indica la ruta del archivo original en el servidor (ej: `puppet:///modules/mi_modulo/archivo.conf`).
+- **content**: Permite escribir texto directamente en el archivo.
+
+```
+file { '/var/www/html/index.html':
+  ensure => file,
+  source => 'puppet:///modules/apache_config/index.html',
+}
+```
+
+### `service`:
+
+Controla si un servicio está corriendo o parado.
+
+- **ensure**: `running` o `stopped`.
+- **enable**: `true` o `false` (si arranca al iniciar el sistema).
+
+```
+service { 'apache2':
+  ensure => running,
+  enable => true,
+}
+```
+
+### `exec`:
+
+Se usa cuando no existe un recurso específico de Puppet para lo que queremos hacer. **Cuidado:** Siempre debe tener una condición para no ejecutarse en cada ciclo.
+
+- **command**: El comando exacto a ejecutar.
+- **path**: Las rutas donde buscar el ejecutable (ej: `['/usr/bin', '/usr/sbin']`).
+- **creates**: No ejecuta el comando si el archivo especificado ya existe (ideal para escaneos).
+- **onlyif / unless**: Ejecuta el comando solo si una condición se cumple (o no).
+
+```
+exec { 'ejecutar_escaneo':
+  command => 'nmap -sP 192.168.1.0/24 > /root/escaneo_de_red',
+  path    => ['/usr/bin'],
+  creates => '/root/escaneo_de_red',
+}
+```
+
+#### **Metaparámetros de Relación**:
+
+1. `require` (Dependencia)
+
+Dice: "Yo necesito que **X** esté listo antes de empezar". Se pone en el recurso que **depende** de otro.
+
+- **Uso:** `require => Package['apache2']` (Nota: El tipo de recurso va en mayúscula cuando se referencia). 
+
+2. `before` (Ordenación)
+
+Dice: "Yo voy primero, **X** va después". Se pone en el recurso que debe ejecutarse **antes**.
+
+- **Uso:** `before => Service['apache2']`
+

