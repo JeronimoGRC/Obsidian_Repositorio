@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/NMAP.md",
+                "file": "Bastionado de Redes y Sistemas/Puppet Server/Puppet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NMAP"
+              "title": "Puppet"
             }
           }
         ]
@@ -185,11 +185,11 @@
   },
   "active": "9a64ea52d7b3f3f3",
   "lastOpenFiles": [
+    "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/NMAP.md",
     "Bastionado de Redes y Sistemas/Puppet Server/Puppet.md",
     "Ficheros y directorios.md",
     "Comandos Linux.md",
     "Bastionado de Redes y Sistemas/Administración/SSH/PSSH.md",
-    "Hacking Ético/Herramientas HE/Reconocimiento-Escaneo/NMAP.md",
     "Hacking Ético/Herramientas HE/Escalada de Privilegios/Escalada de Privilegios.md",
     "img/Pasted image 20260221171001.png",
     "img/Pasted image 20260219101033.png",
