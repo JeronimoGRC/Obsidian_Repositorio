@@ -20,8 +20,21 @@ puppet agent -t
 
 Para que así se ejecute a la vez la actualización de dependencias, borrados y creaciones en los equipos.  
 
----
+Para ser exactos la carpeta en la que trabajamos es `/etc/puppetlabs/code/enviroments/production/modules`, en esa carpeta crearemos los módulos o tareas que importaremos.
 
+También para tener más orden ejecutaremos el siguiente comando:
+
+```
+mkdir -p tarea_ejemplo/{manifests,files}
+```
+
+En la carpeta *manifests* estará el archivo `init.pp`  en el que configuraremos la tarea que tendrán que realizar nuestros equipos.
+
+Esta es la ubicación del archivo donde adjuntaremos las tareas creadas:
+
+`/etc/puppetlabs/code/environments/production/manifests/site.pp`
+
+---
 ## Recursos:
 
 ### `group`:
@@ -88,7 +101,6 @@ user { 'usuario1':
 ```
 
 ### `file`:
-
 
 Creación de fichero:
 
