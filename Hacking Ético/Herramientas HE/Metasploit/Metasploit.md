@@ -13,7 +13,6 @@ Metasploit es la herramienta estándar para el desarrollo y ejecución de exploi
 - **Auxiliary**: Herramientas como escáneres, sniffers o ataques DoS que no llevan un payload.
     
 - **Encoders**: Utilizados para la ofuscación y evasión de antivirus.
-    
 
 ### Comandos Esenciales (msfconsole)
 
@@ -43,7 +42,6 @@ Metasploit es la herramienta estándar para el desarrollo y ejecución de exploi
     - Diccionarios: `/usr/share/metasploit-framework/data/wordlists/tomcat_mgr_userpass.txt`
         
     - Resultado esperado: `tomcat:tomcat` o `admin:admin`.
-    
 2. **Explotación:**
     
     - Módulo: `exploit/multi/http/tomcat_mgr_deploy`
@@ -52,7 +50,7 @@ Metasploit es la herramienta estándar para el desarrollo y ejecución de exploi
         
     - Resultado: Sesión de Meterpreter tras subir un archivo `.war` automáticamente.
 
-### Script de Mapeo de Samba (CVE-2007-2447)
+### Script de Mapeo de Samba *(CVE-2007-2447)
 
 **Objetivo:** Explotar una vulnerabilidad clásica de ejecución de comandos en el nombre de usuario de Samba.
 
@@ -69,7 +67,6 @@ Metasploit es la herramienta estándar para el desarrollo y ejecución de exploi
 - **Resultado:** Acceso directo como **root** (no requiere escalada posterior).
 
 ---
-
 ## 3. Metasploitable 2: Java RMI y Web Apps
 
 ### Java RMI Default Configuration
@@ -81,7 +78,6 @@ Metasploit es la herramienta estándar para el desarrollo y ejecución de exploi
 - **CVE:** *CVE-2011-3556*.
     
 - **Nota Técnica:** El servidor confía en los objetos serializados enviados, permitiendo la ejecución de código Java arbitrario.
-    
 
 ### Vulnerabilidad en Twiki (Historial)
 
@@ -92,7 +88,6 @@ Metasploit es la herramienta estándar para el desarrollo y ejecución de exploi
 - **Acción:** A veces el exploit devuelve un error de timeout, pero la sesión se crea igualmente. Ejecutar `sessions -l` para verificar.
 
 ---
-
 ## 4. Metasploitable 3: Entornos Windows Modernos
 
 ### Eternal Romance (SMB)
@@ -128,8 +123,7 @@ Metasploit es la herramienta estándar para el desarrollo y ejecución de exploi
 3. **Entrega:** Ejecutar ese comando en la víctima (usando la shell obtenida en el ejercicio de Eternal Romance).
 
 ---
-
-## Post-Explotación: Recolección de Inteligencia (Gather)
+## 5. Post-Explotación: Recolección de Inteligencia (Gather)
 
 Basado en las actividades de **Metasploitable 1 y 2 (UT6.6)**. Una vez tengas la sesión abierta:
 
@@ -154,6 +148,3 @@ Basado en las actividades de **Metasploitable 1 y 2 (UT6.6)**. Una vez tengas la
 - **Comando:** `run post/linux/gather/check_rootkit`
     
 - **Propósito:** Determinar si la máquina ya ha sido comprometida previamente o tiene persistencia instalada.
-
----
-
