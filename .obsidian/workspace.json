@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Herramientas HE/Hacking sobre redes inalámbricas/Aircrack-ng.md",
+                "file": "Bastionado de Redes y Sistemas/Iptables/Iptables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aircrack-ng"
+              "title": "Iptables"
             }
           }
         ]
@@ -186,11 +186,20 @@
   },
   "active": "1a62a11a751ddcef",
   "lastOpenFiles": [
+    "Pasted image 20260510125040.png",
+    "Pasted image 20260510125022.png",
+    "Pasted image 20260510124959.png",
+    "Bastionado de Redes y Sistemas/Iptables/Iptables.md",
+    "Bastionado de Redes y Sistemas/UFW/UFW.md",
+    "img/Pasted image 20260510123200.png",
+    "img/Pasted image 20260510123138.png",
+    "Hacking Ético/Herramientas HE/Hacking sobre redes inalámbricas/Aircrack-ng.md",
+    "Bastionado de Redes y Sistemas/Iptables",
+    "Bastionado de Redes y Sistemas/UFW",
     "Pasted image 20260504103127.png",
     "Pasted image 20260504103109.png",
     "Pasted image 20260504103101.png",
     "Pasted image 20260504103046.png",
-    "Hacking Ético/Herramientas HE/Hacking sobre redes inalámbricas/Aircrack-ng.md",
     "Hacking Ético/Herramientas HE/Hacking sobre redes inalámbricas",
     "Hacking Ético/Herramientas HE/Metasploit/Metasploit.md",
     "Hacking Ético/Hacking ético.md",
